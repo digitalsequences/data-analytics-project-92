@@ -3,47 +3,48 @@
 
 # Описание проекта "Продажи"
 Анализ данных торговой площадки:
-1. Работа с базой данных
-2. Визуализация выборок данных в Preset
-3. Презентация результатов
+1. [Работа с базой данных](#db)
+2. [Визуализация отчетов в Preset](#preset)
+3. [Презентация результатов](#presentation)
 
-Стек: `PostgreSQL`, `DBeaver`, `Apache Superset`
+Стек: `PostgreSQL`, `DBeaver`, `Apache Superset`, `Google Slides`
 
-## Работа с базой данных
+## <a id="db">Работа с базой данных<a>
 ![База данных торговой площадки](/img/db.png)
 
 База данных состоит из четырех таблиц.
 
 1. **customers** — таблица покупателей.
 Колонки:
-- customer_id — ID покупателя
-- first_name — имя
-- middle_initial — инициал отчества
-- last_name — фамилия
+    - customer_id — ID покупателя
+    - first_name — имя
+    - middle_initial — инициал отчества
+    - last_name — фамилия
 
 2. **employees** — таблица сотрудников отдела продаж:
-- employee_id — ID сотрудника
-- first_name — имя
-- middle_initial — инициал отчества
-- last_name — фамилия
+    - employee_id — ID сотрудника
+    - first_name — имя
+    - middle_initial — инициал отчества
+    - last_name — фамилия
 
 3. **products** — таблица товаров:
-- product_id — ID товара
-- name — название
-- price — цена
+    - product_id — ID товара
+    - name — название
+    - price — цена
 
 4. **sales** — таблица с данными о проданных товарах:
-- sales_id
-- sales_person_id — ID сотрудника, продавшего товар
-- customer_id — ID покупателя
-- product_id — ID товара
-- quantity — количество
-- sale_date — дата продажи
+    - sales_id
+    - sales_person_id — ID сотрудника, продавшего товар
+    - customer_id — ID покупателя
+    - product_id — ID товара
+    - quantity — количество
+    - sale_date — дата продажи
 
-\queries.sql
+[SQL-запросы для формирования отчетов](/queries.sql)
 
-## Визуализация выборок данных в Preset
+## <a id="preset">Визуализация выборок данных в Preset<a>
 ![Дашборд](/img/dashboard.jpg)
 
-## Презентация результатов
-\presentation.pdf
+## <a id="presentation">Презентация результатов<a>
+
+[Презентация](/presentation.pdf)
