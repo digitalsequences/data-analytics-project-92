@@ -10,7 +10,7 @@
 Стек: `PostgreSQL`, `DBeaver`, `Apache Superset`
 
 ## Работа с базой данных
-![База данных торговой площадки]([https://www.example.com/image.jpg](https://cdn2.hexlet.io/derivations/image/original/eyJpZCI6ImI1MzkzN2Q5ZTNjNDgwM2UzZWMxZDUyY2E3NjU1YjYyLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9?signature=18b7b5104b672fea80e6cd5e1adf0e5c84d2404d0c571b4bad4bdc77f88ff2d3)https://cdn2.hexlet.io/derivations/image/original/eyJpZCI6ImI1MzkzN2Q5ZTNjNDgwM2UzZWMxZDUyY2E3NjU1YjYyLnBuZyIsInN0b3JhZ2UiOiJjYWNoZSJ9?signature=18b7b5104b672fea80e6cd5e1adf0e5c84d2404d0c571b4bad4bdc77f88ff2d3)
+![База данных торговой площадки](/img/db.png)
 
 База данных состоит из четырех таблиц.
 
@@ -43,7 +43,7 @@
 \queries.sql
 
 ## Визуализация выборок данных в Preset
-![Текст с описанием картинки](/images/picture.jpg)
+![Дашборд](/img/dashboard.jpg)
 
 ## Презентация результатов
 \presentation.pdf
