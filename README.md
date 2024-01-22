@@ -7,7 +7,7 @@
 2. [Визуализация отчетов в Preset](#preset)
 3. [Презентация результатов](#presentation)
 
-Стек: `PostgreSQL`, `DBeaver`, `Apache Superset`, `Google Slides`
+`PostgreSQL`, `DBeaver`, `Apache Superset`, `Google Slides`
 
 ## <a id="db">Работа с базой данных<a>
 ![База данных торговой площадки](/img/db.png)
